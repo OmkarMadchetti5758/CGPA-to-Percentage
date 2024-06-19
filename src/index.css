@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(#303b37, #1a1f1d);
+  color: #e1eeeb;
+  min-height: 100vh;
+}
+
+#header {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+
+#header img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 20px;
+  object-fit: contain;
+  background-color: transparent;
+}
+
+#header h1 {
+  font-size: 1.5rem;
+}
+
+#user-input {
+  padding: 1rem;
+  max-width: 40rem;
+  margin: 2rem auto;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #70f2e7, #15554c);
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+
+#user-input label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #15554c;
+  text-transform: uppercase;
+}
+
+#user-input input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #255348;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  color: #15554c;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+#user-input button{
+  background-color: #1a1f1d;
+  color: #c2e9e0;
+  border: none;
+  height: 2.3rem;
+  width: 7rem;
+  border-radius: 5px;
+  margin-left: 15.6rem;
+}
+#user-input button:hover{
+  background-color: #0b0d0d;
+}
